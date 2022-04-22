@@ -1,0 +1,163 @@
+    /*BASIC STYLING*/
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 25px;
+        background-color: #fff;
+        color: rgb(22, 21, 21);
+    }
+    
+    .nav_links a {
+        color: #000;
+    }
+    /*logo*/
+    
+    .stutern {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(39, 37, 37);
+        font-size: 30px;
+    }
+    
+    #paragraph {
+        letter-spacing: 7px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(39, 37, 37);
+    }
+    /*ICONS*/
+    
+    .fa-solid {
+        color: rgb(34, 33, 33);
+    }
+    /*Menu Bar*/
+    
+    .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+        color: #000;
+    }
+    
+    .menu li:hover {
+        background-color: #f6fcfc;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+    
+    .menu li {
+        padding: 5px 14px;
+    }
+    /* DROPDOWN MENU */
+    
+    .lists {
+        position: relative;
+    }
+    
+    .menu a {
+        color: #000;
+    }
+    
+    .dropdown {
+        background-color: skyblue;
+        padding: 1em 0;
+        position: absolute;
+        /*WITH RESPECT TO PARENT*/
+        display: none;
+        border-radius: 8px;
+        top: 35px;
+    }
+    
+    .dropdown li+li {
+        margin-top: 10px;
+    }
+    
+    .dropdown li {
+        padding: 0.5em 1em;
+        width: 8em;
+        text-align: center;
+    }
+    
+    .dropdown li:hover {
+        background-color: #505757;
+    }
+    
+    .lists:hover .dropdown {
+        display: block;
+    }
+    
+    .btn {
+        width: 8rem;
+        height: 3rem;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: rgb(167, 237, 255);
+    }
+    /*MAIN PAGE*/
+    
+    .main {
+        background-image: url(https://media.istockphoto.com/photos/lifestyle-residential-apartments-picture-id160051707?b=1&amp;k=20&amp;m=160051707&amp;s=170667a&amp;w=0&amp;h=OYpdBQSMDLGJo0frB62XAgwBbfunzsp8Rc8RqCyQ7e0=);
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .view {
+        padding-top: 15rem;
+    }
+    
+    h1 {
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 8px;
+        word-spacing: 10px;
+        color: rgb(252, 250, 250);
+        text-shadow: rgb(61, 57, 57);
+    }
+    
+    p {
+        padding-top: 10px;
+        padding-bottom: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        color: #fff;
+    }
+    
+    .sign_in {
+        width: 12rem;
+        height: 3rem;
+        cursor: pointer;
+        border: 1px solid #f8fafc;
+        background-color: transparent;
+        font-size: 1.5em;
+    }
+    
+    .sign_in a {
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
